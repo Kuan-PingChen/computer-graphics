@@ -16,7 +16,9 @@ Undo：Z / Shift+Z 撤銷最後一個 Shape（依你實作）
 
 🧩 專案結構（重點檔案）
 HW1.pde：主程式（setup/draw、按鈕初始化、事件派送）
+
 Renderer.pde：各工具互動流程（收集滑鼠點、呼叫 util 演算法）
+
 LineRenderer / CircleRenderer / EllipseRenderer / CurveRenderer / PolygonRenderer / PencilRenderer / EraserRenderer
 util.pde：核心繪圖演算法
 CGLine(x1,y1,x2,y2)
@@ -26,6 +28,7 @@ CGCurve(p1,p2,p3,p4)
 CGEraser(p1,p2)
 CGPolyline(verts, closed) / CGPolygon(verts)
 drawPoint(x,y,color)（像素級畫點，或包 pixels[]）
+
 Button.pde / ButtonFunction.pde / ShapeButton.pde：UI 控制
 Point.pde / Vector3.pde / Shape 相關：資料結構、圖形基類
 
